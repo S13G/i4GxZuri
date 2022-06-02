@@ -1,0 +1,31 @@
+#chessboard, #chessboard2, .black_square, .white_square, .black_square-n, .white_square-n {
+    display: block;
+    padding: 0px;
+    margin: 0px;
+}
+
+#chessboard {
+    width: 240px;
+    height: 240px;
+    border: 6px solid #973d3d;
+    font-size: 40px;
+    color: royalblue;
+}
+
+.black_square-n, .white_square-n {
+    color: darkred;
+}
+
+.black_square, .white_square, .black_square-n, .white_square-n {
+    height: 48px;
+    width: 48px;
+    float: left;
+}
+
+.black_square, .black_square-n {
+    background-color: #000000;
+}
+
+.white_square, .white_square-n {
+    background-color: #FFFFFF;
+}
